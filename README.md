@@ -11,6 +11,15 @@ POC that handles sending and retrieving messages to/from AWS SQS
 
 ## Usage
 
+Setup a .env file with the following
+
+```sh
+ACCOUNT_ID=""
+QUEUE_NAME=""
+SQS_API_VERSION="2012-11-05"
+AWS_REGION=""
+```
+
 To send a message:
 
 ```sh
